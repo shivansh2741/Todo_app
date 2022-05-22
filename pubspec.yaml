@@ -1,0 +1,40 @@
+name: todo_app
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.3.17
+  firebase_core: ^1.16.0
+  google_fonts: ^2.3.2
+  cloud_firestore: ^3.1.15
+  intl: ^0.17.0
+  fluttertoast: ^8.0.9
+  flutter_loadingindicator: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+ 
